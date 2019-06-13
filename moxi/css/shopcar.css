@@ -1,0 +1,462 @@
+.main.pay-main {
+    background: #fff;
+    width: 1200px;
+    margin: 0px auto;
+    clear: both;
+}
+.switch-cart {
+    float: left;
+    position: relative;
+    height: 26px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.switch-cart .switch-cart-item {
+    font-size: 18px;
+    color: #333333;
+}
+.switch-cart .shop-number {
+    font-size: 18px;
+    color: #f86f76;
+}
+.cart-main {
+    width: 1200px;
+    margin: 5px auto auto auto;
+}
+.cart-thead {
+    padding: 10px 0px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #cccccc;
+}
+.cart-thead .t-checkbox {
+    width: 80px;
+    text-align: center;
+}
+.cart-thead .column {
+    float: left;
+    font-size: 12px;
+    color: #333333;
+}
+.cart-thead .t-goods {
+    width: 575px;
+    height:20px;
+    text-indent: 160px;
+}
+.cart-thead .t-price {
+    width: 150px;
+    text-align: center;
+}
+.cart-thead .t-quantity {
+    width: 152px;
+    text-align: center;
+}
+.cart-thead .t-sum {
+    width: 118px;
+    text-align: center;
+}
+.cart-thead .t-action {
+    width: 123px;
+    text-align: center;
+}
+.item-list {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 30px;
+}
+.item-s-form {
+    width:1198px;
+    height:95px;
+    padding-top: 13px;
+}
+.cart-checkbox {
+    width: 70px;
+    text-align: center;
+    float: left;
+}
+.p-goods {
+    width: 585px;
+    float: left;
+}
+.cell {
+    padding-top: 0px;
+}
+.p-img {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    /*border: 1px solid #cccccc;*/
+    text-align: center;
+    float: left;
+}
+.p-img img {
+    width: 80px;
+    height: 80px;
+}
+.p-msg {
+    padding-left: 102px;
+    font-size: 14px;
+
+    width: 60%;
+}
+
+.p-msg a {
+    font-size: 12px;
+    color: #333333;
+}
+.p-msg a:hover{
+    color:#f86f76;
+}
+.proname .tips {
+    width: 80px;
+    overflow: auto;
+    font-weight: bold;
+    background-color: Red;
+    color: #FFFFFF;
+    text-align: center;
+}
+.p-price {
+    width: 150px;
+    float: left;
+    color: #333333;
+    font-size: 14px;
+}
+.cell {
+    padding-top: 0px;
+}
+.p-quantity {
+    float: left;
+    width: 152px;
+}
+.p-quantity .wrap-input {
+    margin-left: 20px;
+}
+.wrap-input {
+    width: 260px;
+    float: left;
+    height: 95px;
+}
+.wrap-input a {
+    display: block;
+    width: 33px;
+    height: 33px;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    text-align: center;
+    line-height: 33px;
+    background: #eff3f6;
+    color: #666;
+    font-size: 20px;
+    float: left;
+}
+.btn-reduce {
+    float:left;
+    border-left: 1px solid #c8c8c8;
+}
+.buy-num {
+    float:left;
+    display: block;
+    width: 36px;
+    height: 33px;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    border-left: none;
+    border-right: none;
+    float: left;
+    text-align: center;
+    line-height: 33px;
+}
+.wrap-input a {
+
+    display: block;
+    width: 33px;
+    height: 33px;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    text-align: center;
+    line-height: 33px;
+    background: #eff3f6;
+    color: #666;
+    font-size: 20px;
+    float: left;
+}
+.btn-add {
+    float:left;
+    border-right: 1px solid #c8c8c8;
+}
+.p-sum {
+    margin-left:120px;
+    width: 118px;
+    float: left;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+.p-action {
+
+   /* margin-left:250px;*/
+   margin-right: 70px;
+    width: 123px;
+    float: right;
+}
+.p-action a {
+    color: #333333;
+    display: inline-block;
+    width: 100%;
+    text-indent: 35px;
+    font-size: 13px;
+}
+.p-action a:hover{
+    color:#f86f76;
+}
+.tips_list {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.car-s-notice {
+    color: #333333;
+    font-size: 12px;
+    padding: 10px 26px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    vertical-align: middle;
+}
+.tips_list ul li {
+    padding: 0px 0px 0px 45px;
+    color: #444;
+    line-height: 25px;
+    font-size: 13px;
+}
+.tips_list ul li .tip-icon {
+    margin-left: -30px;
+    line-height: 25px;
+    font-style: normal;
+    vertical-align: middle;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(http://images.moximoxi.com/details/201411/0609474157.png) no-repeat;
+    background-size: 200px 200px;
+}
+.tips_list ul li .link-item {
+    display: inline-block;
+    line-height: 25px;
+}
+.tips_list .link-item:hover{
+    color:red;
+}
+.s-info {
+    color: #f86f76;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.tips_list ul .content {
+    display: none;
+    padding-bottom: 8px;
+    line-height: 20px;
+    padding-right: 25px;
+}
+.tips_list ul .content .rule-details {
+    background: #ffc;
+    border: solid 1px #ddd;
+    padding: 5px 5px 5px 5px;
+}
+
+.cart-thead {
+    width:1200px;
+    height:42px;
+    padding: 10px 0px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #cccccc;
+}
+.cart-thead.car-end {
+    border-bottom: none;
+    height: 42px;
+    min-height: 42px;
+}
+.cart-item-list , .item-list{
+    width:1200px;
+    /*height:126px;*/
+}
+.operation {
+    float: left;
+    margin-left: 40px;
+}
+.operation .remove-batch{
+    font-size: 14px;
+    color: #787373;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.comm-right {
+    float: right;
+    width: 710px;
+    position: relative;
+}
+.submit-btn {
+    width: 123px;
+    height: 42px;
+    background: #f26e78;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    text-align: center;
+    line-height: 42px;
+}
+.price-sum {
+    float: right;
+    margin-right: 160px;
+    width: auto;
+    line-height: 26px;
+}
+.price-sum .sumPrice {
+    height: 20px;
+    margin-top: -2px;
+
+}
+.price-sum .sumPrice em {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f86f76;
+    margin-top: -5px;
+}
+.price-sum .sumPrice, .price-sum .amount-sum {
+    float: right;
+    font-size: 14px;
+    color: #5c5c5c;
+    font-weight: bold;
+}
+/*轮播图*/
+.c-tabs {
+    width: 1200px;
+    margin: 38px auto auto auto;
+}
+.c-tabs-tit {
+    width: 1200px;
+    height: 33px;
+    margin: 0px auto;
+    background: url(http://www.moximoxi.net/images/v1504/pphoto/line.jpg) repeat-x bottom left;
+}
+.c-tabs li.tabs-iteam-active {
+    height:35px;
+    width:114px;
+    color: #f86f76;
+    background: #ffffff;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+}
+.c-tabs li {
+    display: inline;
+    padding: 6px 28px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    cursor: pointer;
+}
+.c-tabs-end {
+    display: block;
+    width: 1198px;
+    margin: 0px auto;
+    background: #ffffff;
+    padding: 34px 0px 34px 0px;
+    border: 1px solid #d3d3d3;
+    /*border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;*/
+    overflow: hidden;
+    position: relative;
+    height: 329px;
+}
+.c-tabs-end ul {
+    display: block;
+    width: 10000px;
+    height: 210px;
+    position: relative;
+}
+.c-tabs-end li {
+    display: block;
+    float:left;
+    width: 1198px;
+   /* position: absolute;
+    left: 0px;
+    top: 0px;*/
+}
+.c-tabs li {
+    display: inline;
+    padding: 6px 28px;
+    font-size: 14px;
+    color: #333333;
+    float: left;
+    cursor: pointer;
+}
+.c-tabs-end li .c-tabs-info {
+    width: 180px;
+    float: left;
+}
+.c-tabs-end li .c-tabs-info .tabs-a-pic {
+    width: 135px;
+    height: 135px;
+    margin: 0px auto;
+}
+.c-tabs-end li .c-tabs-info a {
+    color: #66666a;
+    text-decoration: none;
+}
+
+.c-tabs-end li .c-tabs-info span {
+    display: block;
+    width: 135px;
+    margin: auto;
+    text-align: center;
+    color: #e43b36;
+    font-weight: bold;
+    font-size: 14px;
+}
+.c-tabs-end li .c-tabs-info p {
+    width: 135px;
+    margin: auto;
+    padding: 5px 0px;
+}
+.tabs-left-btn {
+    left: 0px;
+    background: url(http://www.moximoxi.net/images/v1504/cross/tabs-left-btn.png) #fff no-repeat center center;
+}
+.tabs-btn {
+    display: block;
+    width: 53px;
+    height: 329px;
+    position: absolute;
+    top: 24px;
+    cursor: pointer;
+}
+.tabs-right-btn {
+    right: 0px;
+    background: url(http://www.moximoxi.net/images/v1504/cross/tabs-right-btn.png) #fff no-repeat center center;
+}
+.ban_dot {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    text-align: center;
+}
+.ban_dot .dot_list.active {
+    background-color: #fe659f;
+}
+.f_con_01 .ban_dot .dot_list {
+    border: 1px solid #fe659f;
+}
+.ban_dot .dot_list {
+    display: inline-block;
+    font-size: 0;
+    width: 6px;
+    height: 6px;
+    border: 1px solid #fe659f;
+    background-color: #fff;
+    margin: 0 1px;
+    border-radius: 50% 50%;
+}

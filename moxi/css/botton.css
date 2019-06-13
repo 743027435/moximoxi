@@ -1,0 +1,224 @@
+.footer {
+    width: 100%;
+    height: 540px;
+    background: #efefef;
+    border-top: #ff3333 solid 2px;
+    padding-top: 24px;
+    overflow: hidden;
+}
+.infoort {
+    width: 1200px;
+    height: 214px;
+    margin: 0 auto;
+    position: relative;
+}
+.infoorterinfo {
+    width: 760px;
+    height: 216px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.infootlist {
+    float: left;
+    width: 152px;
+}
+.infootlist dd {
+    width: 152px;
+    height: 22px;
+    text-align: center;
+    font: normal 12px/22px '微软雅黑';
+}
+.infootkefu {
+    width: 240px;
+    height: 160px;
+    position: absolute;
+    left: 759px;
+    top: 0;
+    position: relative;
+    border-left: #ccc solid 1px;
+    border-right: #ccc solid 1px;
+}
+.infootkefu h3 {
+    line-height: 24px;
+}
+.infoort h3 {
+    font: bold 14px/14px '微软雅黑';
+    text-align: center;
+    color: #333;
+}
+.infootkefu span {
+    display: inline-block;
+    width: 240px;
+    font: normal 12px/22px '微软雅黑';
+    text-align: center;
+}
+.infootkefu span.tel {
+    padding-bottom: 20px;
+}
+.infootkefu a {
+    position: absolute;
+    left: 61px;
+    top: 138px;
+}
+.right_sider {
+    width: 35px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 101;
+}
+.infootcode {
+    width: 196px;
+    position: absolute;
+    left: 999px;
+    top: 0;
+    text-align: center;
+}
+.infootcode img {
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+.infootcode h3 {
+    line-height: 24px;
+}
+.infoort h3 {
+    font: bold 14px/14px '微软雅黑';
+    text-align: center;
+    color: #333;
+}
+.infootcode span {
+    margin-left: 45px;
+    display: block;
+    width: 110px;
+    text-align: center;
+    line-height: 22px;
+}
+.copyRight_con {
+    text-align: center;
+}
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.copyRight_con p {
+    color: #333;
+    line-height: 30px;
+    padding: 10px 0;
+}
+.brand_link {
+    margin: 0px auto 20px;
+}
+.brand_link a {
+    margin: 0 18px;
+}
+
+.inFootService {
+    width: 1200px;
+    height: 160px;
+    margin: 0 auto;
+    
+}
+.infootcode span {
+    font-size: 12px;
+    margin-left: 45px;
+    display: block;
+    width: 110px;
+    text-align: center;
+    line-height: 22px;
+}
+#moxi_left_toolbar .mymoxi {
+    position: relative;
+    overflow: visible;
+    z-index: 9990;
+.list_00 {
+    background-image: url(/images/v1504/sider0.png);
+    padding-top: 46px;
+}
+.sider_list {
+    display: block;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0;
+    background-repeat: no-repeat;
+    background-position: center 20px;
+}
+#moxi_left_toolbar .mymoxi .order-view {
+    background: #fff;
+    border: solid 10px #e2e2e2;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    display: none;
+    right: 36px;
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+    text-align: center;
+}
+.list_01 {
+    background-image: url(/images/v1504/sider01.png);
+    padding-top: 46px;
+}
+#moxi_left_toolbar .mymoxi .user-view {
+    background: #fff;
+    border: solid 10px #e2e2e2;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    display: none;
+    right: 36px;
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+    text-align: center;
+}
+.list_02 {
+    background-image: url(/images/v1504/sider02.png);
+    padding-top: 42px;
+}
+.list_03 {
+    background-image: url(/images/v1504/sider03.png);
+    padding-top: 42px;
+}
+#moxi_left_toolbar .daigou140725 {
+    position: relative;
+    overflow: visible;
+    z-index: 9980;
+}
+.list_04 {
+    background-image: url(/images/v1504/sider04.png);
+    padding-top: 45px;
+}
+#moxi_left_toolbar .serv {
+    margin-bottom: 20px;
+}
+.list_05 {
+    background-image: url(/images/v1504/sider05.png);
+    padding-top: 42px;
+}
+#moxi_left_toolbar .sinaweibo {
+    margin-top: 0px;
+}
+.list_06 {
+    margin-top: 20px;
+    background-image: url(/images/v1504/sider06.png);
+    background-position: center center;
+    padding: 20px 0;
+}
+#moxi_left_toolbar .qrcode {
+    position: relative;
+    overflow: visible;
+    z-index: 9980;
+}
+.list_07 {
+    background-image: url(/images/v1504/sider07.png);
+    background-position: center center;
+    padding: 20px 0;
+}

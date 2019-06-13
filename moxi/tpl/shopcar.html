@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/base_px.css" />
+        <link rel="stylesheet" type="text/css" href="../css/shopcar.css" />
+        <script src="../js/jquery-3.4.1.js"></script>
+        <script src="../js/shopcar.js"></script>
+        <script src="../js/imgscroll2.js"></script>
+    </head>
+    <body>
+          <div class="main pay-main">
+            <div id="buycart-content" style="padding-top: 35px;">
+                <div id="buycart_loading" style="line-height: 55px; text-align: center; display: none;">
+                    加载中....
+                </div>
+                <noscript>
+                    <div style="color: Red; text-align: center;">
+                        请启用Javascript脚本</div>
+                </noscript>
+                <div id="buycartlist">
+                    <div class="cart-filter-bar">   
+                        <ul class="switch-cart">       
+                            <li><em class="switch-cart-item"></em>
+                                <span class="shop-number"></span>
+                            </li>   
+                        </ul>
+                        <div class="clr"></div>
+                    </div>
+                    <div  class="buycartbox cart-main">                    
+                        <div class="lightBg cart-thead">                        
+                            <div class="tit column t-checkbox">
+                                <span class=""></span>
+                            </div>                        
+                            <div class=" column t-goods">商品</div>                        
+                            <div class="tit_price column t-price">价格</div>
+                            <div class="tit_procount column t-quantity">数量</div> 
+                            <div class="tit_proprice column t-sum">小计(元)</div>
+                            <div class="tit_action column t-action">操作</div>
+                            <div class="clr"></div>                    
+                        </div>   
+                        <div class="cart-item-list">
+                        <!-- 第一件商品 -->
+                        <!-- <div class="item item-list">   
+                        <div class="item-s-form">       
+                        <div class="cart-checkbox" style="display:none;">
+                            <input childcount="0"  class="checkbox-choose" type="checkbox" value="64369">
+                        </div>       
+                        <div class="p-goods cell" style="margin-left: 20px;">        
+                            <div class="pic p-img">
+                                <a href="">
+                                <img src="http://images.moximoxi.com/uploads/pro158image/201712081436361.jpg"></a>
+                            </div>           
+                            <div class="proname p-msg">
+                                <b class="protag_default">包邮</b>
+                                <a href="">【EMS包邮包税】卡西欧/CASIO EQW-T610D-1AJF 精准太阳能6局电波男表</a> 
+                            <div class="tips"></div>           
+                            </div>       
+                        </div>       
+                            
+                        <div class="procount_new p-quantity cell">           
+                            <div class="wrap-input">           
+                                <a href="" class="btn-reduce " cartkey="64369">-</a> 
+                                <input class="buy-num" type="text" cartkey="64369" value="1" count="1">
+                                <a href="" class="btn-add " cartkey="64369">+</a>
+                                <div class=" p-price cell"> 
+                            2356.02</em>       
+                        </div>   
+                            </div>       
+                        </div>       
+                        <div class=" p-sum cell">           
+                            <em>2356.02</em>元
+                        </div>       
+                        <div class=" p-action cell">            
+                            <a href="" onclick="">移入收藏夹</a>            
+                            <a class="btn-delete" href="" cartkey="64369">删除</a> 
+                        </div>   
+                        <div class="clr"></div>   
+                    </div>
+                    </div> -->
+                    <div class="item item-list">   
+                        <div class="item-s-form">       
+                            <div class="cart-checkbox" style="display:none;">
+                                <input class="checkbox-choose" type="checkbox" value="25619">
+                            </div>       
+                            <div class="p-goods cell" style="margin-left: 20px;">        
+                                <div class="pic p-img">
+                                    <a href="http://goods0.moximoxi.net/goods-25619.html">
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201512011528290.jpg">
+                                    </a>
+                                </div>           
+                                <div class="proname p-msg">
+                                    <a href="http://goods0.moximoxi.net/goods-25619.html">象印/ZOJIRUSHI SM-XA48 不锈钢双层真空保冷保温杯 480ml  橙色
+                                    </a>               
+                                    <div class="tips">橙色</div>             
+                                    <div class="tips"></div>           
+                                </div>       
+                            </div>            
+                            <div class="procount_new p-quantity cell">
+                                <div class="wrap-input"> 
+                                    <div class=" p-price cell">267.18     </div>   
+                                    <a href="javascript:void(0);" class="btn-reduce " cartkey="25619">
+                                    -
+                                    </a>           
+                                    <input class="buy-num" type="text" cartkey="25619" value="1" count="1">           
+                                        <a class="btn-add " cartkey="25619">
+                                        +
+                                        </a>
+                                </div>       
+                            </div>       
+                            <div class=" p-sum cell">           
+                                <em class ="stotal">267.18</em>元
+                            </div>       
+                            <div class=" p-action cell">            
+                                <a href="javascript:;" onclick="MX.Goods.Collect('25619',0);">
+                                移入收藏夹
+                                </a>            
+                                <a class="btn-delete" href="javascript:;" cartkey="25619">
+                                删除
+                                </a>         
+                            </div>   
+                            <div class="clr"></div>   
+                        </div>
+                    </div>
+             <!-- 第2件商品 -->
+                    <div class="item item-list">   
+                        <div class="item-s-form">       
+                            <div class="cart-checkbox" style="display:none;">
+                                <input class="checkbox-choose" type="checkbox" value="25619">
+                            </div>       
+                            <div class="p-goods cell" style="margin-left: 20px;">        
+                                <div class="pic p-img">
+                                    <a href="http://goods0.moximoxi.net/goods-25619.html">
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201512011528290.jpg">
+                                    </a>
+                                </div>           
+                                <div class="proname p-msg">
+                                    <a href="http://goods0.moximoxi.net/goods-25619.html">象印/ZOJIRUSHI SM-XA48 不锈钢双层真空保冷保温杯 480ml  橙色
+                                    </a>               
+                                    <div class="tips">橙色</div>             
+                                    <div class="tips"></div>           
+                                </div>       
+                            </div>            
+                            <div class="procount_new p-quantity cell">
+                                <div class="wrap-input"> 
+                                    <div class=" p-price cell">267.18     </div>   
+                                    <a href="javascript:void(0);" class="btn-reduce " cartkey="25619">
+                                    -
+                                    </a>           
+                                    <input class="buy-num" type="text" cartkey="25619" value="1" count="1">           
+                                        <a class="btn-add " cartkey="25619">
+                                        +
+                                        </a>
+                                </div>       
+                            </div>       
+                            <div class=" p-sum cell">           
+                                <em class ="stotal">267.18</em>元
+                            </div>       
+                            <div class=" p-action cell">            
+                                <a href="javascript:;" onclick="MX.Goods.Collect('25619',0);">
+                                移入收藏夹
+                                </a>            
+                                <a class="btn-delete" href="javascript:;" cartkey="25619">
+                                删除
+                                </a>         
+                            </div>   
+                            <div class="clr"></div>   
+                        </div>
+                    </div>
+                     
+
+
+
+                    </div>        
+                    <div class="tips_list car-s-notice">            
+                        <ul>                
+                            <li class="tipstatus-3">                    
+                                <i class="tip-icon"></i>                    
+                                <a class="link-item" href="">加购推荐商品运费更超值！
+                                </a>                    
+                                <a class="btn-details  s-info" href="">详情</a>                
+                            </li>                
+                            <li class="content" style2="display:none;">                    
+                                <div class="rule-details">                                                
+                                    <br>凡购买吉量食品（商家）满200元减20元                        
+                                    <br><a href="" style="color:#369; text-decoration:underline;">&gt;&gt;选购商品</a>
+                                </div>                
+                            </li>            
+                        </ul>        
+                </div>   
+                <div class="buycarttool cart-thead car-end">       
+                    <div class="btnbox operation">           
+                        <a style="display:none;" class="btn-clearbuycart remove-batch" type="button">删除选中的商品</a>           
+                        <input class="btn-usecoupon" style="display:none" type="button" value="使用优惠券"> 
+                    </div>       
+                    <div class="comm-right">           
+                        <a class="btn-next submit-btn" href="">全部结算</a>           
+                    <img class="submit-waiting" src="../images/loading.gif" height="48" width="48" alt="" style="float:right; vertical-align:middle;display:none;">           
+                         <div class="price-sum">               
+                            <span class="couponstatus-box "></span>
+                            <span class="sumPrice">总价(不含运费)：
+                                <em>¥0.00</em>
+                            </span>
+                        </div>       
+                    </div>       
+                    <div class="clr"></div>   
+                    </div>   
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+            <div class="c-tabs">
+                <div class="c-tabs-tit">
+                    <ul>
+                        <li class="tabs-iteam-active">最新推荐</li>
+                    </ul>
+                </div>
+                <div class="c-tabs-end">
+                    <ul class="c-tabs-pic">
+                        
+                        <li class="lun" >
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" title="【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）">
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201505141150128770.jpg"  width="135" height="135" style="height: 135px; width: 88px;">
+                                    </a>
+                                </div>
+                                <p>
+                                    <a href="" class="tex">
+                                        【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）</a></p>
+                                <span>
+                                    1230日元(约78.93
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" title="【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）">
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201505141150128770.jpg"  width="135" height="135" style="height: 135px; width: 88px;">
+                                    </a>
+                                </div>
+                                <p>
+                                    <a href="" class="tex">
+                                        【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）</a></p>
+                                <span>
+                                    1230日元(约78.93
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" title="【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）">
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201505141150128770.jpg"  width="135" height="135" style="height: 135px; width: 88px;">
+                                    </a>
+                                </div>
+                                <p>
+                                    <a href="" class="tex">
+                                        【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）</a></p>
+                                <span>
+                                    1230日元(约78.93
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" title="【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）">
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201505141150128770.jpg"  width="135" height="135" style="height: 135px; width: 88px;">
+                                    </a>
+                                </div>
+                                <p>
+                                    <a href="" class="tex">
+                                        【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）</a></p>
+                                <span>
+                                    1230日元(约78.93
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" title="【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）">
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201505141150128770.jpg"  width="135" height="135" style="height: 135px; width: 88px;">
+                                    </a>
+                                </div>
+                                <p>
+                                    <a href="" class="tex">
+                                        【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）</a></p>
+                                <span>
+                                    1230日元(约78.93
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                           <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" title="【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）">
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201505141150128770.jpg"  width="135" height="135" style="height: 135px; width: 88px;">
+                                    </a>
+                                </div>
+                                <p>
+                                    <a href="" class="tex">
+                                        【日本直邮】贝亲/Piggen 儿童葡萄明星牙胶（6个月以上）</a></p>
+                                <span>
+                                    1230日元(约78.93
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                        </li>
+                        <li class="lun" style="left: 0px;">
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" >
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201702071235131.jpg" alt="索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红"  width="135" height="135" style="width: 135px; height: 135px;"></a>
+                                </div>
+                                <p>
+                                    <a href="h" title="" class="tex">
+                                        索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红
+                                    </a>
+                                </p>
+                                <span>
+                                    52044日元(约3339.87
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" >
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201702071235131.jpg" alt="索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红"  width="135" height="135" style="width: 135px; height: 135px;"></a>
+                                </div>
+                                <p>
+                                    <a href="h" title="" class="tex">
+                                        索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红
+                                    </a>
+                                </p>
+                                <span>
+                                    52044日元(约3339.87
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" >
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201702071235131.jpg" alt="索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红"  width="135" height="135" style="width: 135px; height: 135px;"></a>
+                                </div>
+                                <p>
+                                    <a href="h" title="" class="tex">
+                                        索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红
+                                    </a>
+                                </p>
+                                <span>
+                                    52044日元(约3339.87
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" >
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201702071235131.jpg" alt="索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红"  width="135" height="135" style="width: 135px; height: 135px;"></a>
+                                </div>
+                                <p>
+                                    <a href="h" title="" class="tex">
+                                        索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红
+                                    </a>
+                                </p>
+                                <span>
+                                    52044日元(约3339.87
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" >
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201702071235131.jpg" alt="索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红"  width="135" height="135" style="width: 135px; height: 135px;"></a>
+                                </div>
+                                <p>
+                                    <a href="h" title="" class="tex">
+                                        索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红
+                                    </a>
+                                </p>
+                                <span>
+                                    52044日元(约3339.87
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                            <div class="c-tabs-info">
+                                <div class="tabs-a-pic">
+                                    <a href="" >
+                                        <img src="http://images.moximoxi.com/uploads/pro158image/201702071235131.jpg" alt="索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红"  width="135" height="135" style="width: 135px; height: 135px;"></a>
+                                </div>
+                                <p>
+                                    <a href="h" title="" class="tex">
+                                        索尼/SONY NW-A30系列内存类型A系列随身听 NW-A37HN,（R）中国红
+                                    </a>
+                                </p>
+                                <span>
+                                    52044日元(约3339.87
+                                    元人民币)
+                                </span>
+                            </div>
+                            
+                    </li>
+                </ul>
+                    <span class="tabs-left-btn tabs-btn"></span>
+                    <span class="tabs-right-btn tabs-btn"></span>
+                    <div class="ban_dot">
+                            
+                                <!-- <a href="#" class="dot_list"></a>
+                            
+                                <a href="#" class="dot_list"></a> -->
+                            
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div id="div201410201114" style="width: 50px; position: fixed; right: 30px; bottom: 50px; display: none;">
+            <a class="tool-mxsq" href="javascript:;" style=""><b>购物<br>
+                助手</b> </a>
+        </div>
+    </div>    
+    </div>
+
+    </body>
+</html>

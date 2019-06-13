@@ -1,0 +1,351 @@
+/* 
+* @Author: Marte
+* @Date:   2019-06-05 21:03:13
+* @Last Modified by:   Marte
+* @Last Modified time: 2019-06-12 14:34:37
+*/
+#top{
+    width: 1520px;
+    height: 153px;
+    
+}
+.insidenav{
+    width:1200px;
+    height:28px;
+    background:#EFEFEF;
+}
+.insidenavleft{
+    width:450px;
+    height:28px;
+    float: left;
+}
+.insidenavleft ul li {
+    float:left;
+    height:28px;
+    font-size:12px;
+    color:black;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 28px;
+}
+.insidenavleft ul li a{  
+    float:left; 
+    text-align: center;
+    width:17px;
+    height:18px;
+    display: block;
+    background:url("../images/sideNav_ico.png");
+    margin: 8px 5px 0 0;
+}
+.insidenavleft ul li:nth-child(3) a {
+    background-position: 0 -55px;
+}
+
+.insidenavleft ul li:nth-child(1){
+    margin-left:15px;
+}
+.insidenavleft ul li:nth-child(2) a:hover{
+    
+    background-position: 0px -27px;
+}
+.insidenavleft ul li:nth-child(3) a:hover{
+    background-position: 0 -83px;
+}
+.insidenavleft ul li:hover{
+    color:orange;
+}
+.insidenavright{
+    width:500px;
+    height:28px;
+    float:right;
+}
+.insidenavright ul li{
+    font-size: 12px;
+    height:28px;
+    margin-right:10px;
+    float:left;
+    text-align: center;
+    line-height: 28px;
+}
+.insidenavright ul li a{
+    margin-right: 5px;
+}
+.insidenavright ul li a:hover{
+    color:orange;
+}
+.insidenavright ul li:nth-child(3){
+    padding-left: 8px;
+    height:14px;
+    line-height: 14px;
+    margin-top: 7px;
+    background:#FF2C2A;
+    color:white;
+}
+.insidenavright ul li:hover{
+    color:orange;
+}
+.insidenavright ul li:nth-child(3):hover{
+    color:black;
+}
+.insidenavright ul li span{
+    width:15px;
+    height:28px;
+    background:url("../images/sideNav_ico.png") no-repeat;
+    background-position:0px -100px ;
+}
+/*logo那一行*/
+
+.header{
+    width:100%;
+    height:124px;
+}
+.inheader{
+    width:1200px;
+    height:124px;
+    position:relative;
+
+}
+.logo{
+    width:236px;
+    height:78px;
+    float:left;
+    padding:18px 0 0 33px;
+}
+.logo h1 a{
+    display:block;
+    width:124px;
+    height:66px;
+    text-indent:-9999px;
+    overflow: hidden;
+    background:url("../images/logo.png")no-repeat;
+    padding-bottom:4px;
+}
+.logo span{
+    display:block;
+    width:120px;
+    height:12px;
+    background:url("../images/bioayu.png")no-repeat;
+}
+.search{
+    width:468px;
+    height:50px;
+    float:left;
+    margin-top:24px;    
+}
+.seachtop{
+    width:468px;
+    height:30px;
+    position:relative;
+}
+.searchTopL{
+   width: 456px;
+    height: 28px;
+    line-height: 28px;
+    /* background: #efefef; */
+    float: left;
+    border: 1px solid #ff3d3b;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ccc;
+    padding-left: 10px;
+    outline: none; 
+}
+.searchTopR {
+    width: 108px;
+    height: 28px;
+    background: #ff3d3b;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.seachlinks{
+    position:absolute;
+    top:30px;
+    left:0px;
+    width: 468px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+.seachtop .seachlinks a{
+    font-size: 12px;
+    color:#999;
+}
+.seachtop .seachlinks a:hover{
+    color:#FF3D3B;
+}
+.searchright{
+    box-sizing: border-box;
+    float:right;
+    width:332px;
+    height:124px;
+    position:absolute;
+    top:50px;
+    left:860px;
+
+    background:url("../images/jiaobiao.png")no-repeat;
+}
+/*nav*/
+.nav{
+   width:1200px;
+   height:34px;
+   position:relative;
+
+}
+
+.nav span{
+    float: left;
+    display: block;
+    width: 190px;
+    height: 34px;
+    background: #ff3d3b url("../images/icon_printes.png") 164px 13px no-repeat;
+    text-align: center;
+    color: #fff;
+    font: bold 14px/34px '微软雅黑';
+    border-bottom: #ca3333 solid 1px;
+}
+.nav .navlinks{
+    position:absolute;
+    top:0px;
+    left:190px;
+    float: left;
+    width: 1010px;
+    height: 34px;
+    line-height: 34px;
+    font: bold 14px/34px '微软雅黑';
+    border-bottom: #fa6e74 solid 1px;
+}
+.nav .navlinks li{
+    float: left;
+    padding: 7px 0 0 20px;
+    
+}
+.navlinks li:hover{
+    color:#FF3D3B;
+}
+/*.navleft{
+    float:left;
+    width:190px;
+    height:400px;
+    background:url("../images/navleftbackgroup.png")no-repeat;
+    position:absolute;
+    top:220px;
+    left:160px;
+    padding-left: 20px;
+    z-index: 22;
+}
+.navleftlinks li{
+   width:190px;
+   height:50px;
+}
+
+.navleftlinks li a{
+    display: block;
+    padding-left: 66px;
+    height: 50px;
+    font: normal 14px/50px '微软雅黑';
+    color: #fff;
+}
+ .navleft .navleftlinks li span{
+    width:20px;
+    height:50px;
+
+}*/
+.serverMenu {
+    width: 190px;
+    height: 400px;
+    background:url(../images/navleftbackgroup.png) 0px 0 no-repeat;
+    position: absolute;
+    /*top: 185px;
+    left:160px;*/
+    padding-right: 20px;
+    z-index: 22;
+}
+.inServerMenu li {
+    width: 190px;
+    height: 50px;
+}
+.inServerMenu li .hotSearch {
+    background: url(http://www.moximoxi.net/images/v1509/icon2.png) 10px -41px no-repeat;
+}
+.inServerMenu li a {
+    display: block;
+    padding-left: 66px;
+    height: 50px;
+    font: normal 14px/50px '微软雅黑';
+    color: #fff;
+}
+.inServerMenu li .food {
+    background: url(http://www.moximoxi.net/images/v1509/icon2.png) 10px -146px no-repeat;
+}
+.inServerMenu li .nutrition {
+    background: url(http://www.moximoxi.net/images/v1509/icon2.png) 10px -239px no-repeat;
+}
+.inServerMenu li .beauty {
+    background: url(http://www.moximoxi.net/images/v1509/icon2.png) 10px -342px no-repeat;
+}
+.inServerMenu li .baby {
+    background: url(http://www.moximoxi.net/images/v1509/icon2.png) 10px -441px no-repeat;
+}
+.inServerMenu li .home {
+    background: url(http://www.moximoxi.net/images/v1509/icon2.png) 10px -542px no-repeat;
+}
+.inServerMenu li .digital {
+    background: url(http://www.moximoxi.net/images/v1509/icon2.png) 10px -638px no-repeat;
+}
+.inServerMenu li .adult {
+    background: url(http://www.moximoxi.net/images/v1509/icon2.png) 10px -739px no-repeat;
+}
+/*inServerMenuList详细二级导航*/
+.inServerMenuList {
+    position:absolute;
+    top: 185px;
+    left: 350px;
+    width: 504px;
+    height: 400px;
+    /*background:red;*/
+}
+.inServerMenuB {
+
+    width: 504px;
+    height: 400px;
+    border-top: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+    border-right: #ccc solid 1px;
+    background: #fff;
+    /*filter:alpha(opacity=90);
+    -moz-opacity: 0.9;*/
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px 20px;
+    z-index: 999;
+    display: none;
+    overflow:hidden;
+}
+.inServerMenuB h3 a {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: '微软雅黑';
+    color: #333;
+    padding-bottom: 5px;
+}
+.inServerMenuB li {
+    width:504px;
+    margin-bottom: 10px;
+}
+
+.inServerMenuList .inServerMenuB a {
+    color:#666;
+    font-size: 12px;
+   
+}
+.header a {
+    color: #666;
+}
