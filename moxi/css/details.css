@@ -66,20 +66,20 @@
 .hyb-p-list li img {
     padding: 2px;
 }
-a .hyb-pic-leftBtn {
+a.hyb-pic-leftBtn {
     background-position: 0px 0px;
     left: 0px;
     bottom: 0px;
 }
-a .hyb-com-picBtn {
+a.hyb-com-picBtn {
     display: block;
     width: 15px;
     height: 55px;
     position: absolute;
-    background-image: url(/images/v1504/pphoto/pic-btn.png);
+    background-image: url("../images/pic-btn.png");
     background-repeat: no-repeat;
 }
-a .hyb-pic-rightBtn {
+a.hyb-pic-rightBtn {
     background-position: -30px 0px;
     right: 0px;
     bottom: 0px;
@@ -103,6 +103,7 @@ a .hyb-pic-rightBtn {
     padding: 10px 9px 8px 12px;
 }
 .hyb-dinfo-box-center .hyb-p-price li {
+    font-size: 13px;
     color: #4c4c4c;
     letter-spacing: 1px;
 }
@@ -130,6 +131,7 @@ a .hyb-pic-rightBtn {
     width: 27%;
 }
 .hyb-dinfo-box-center .hyb-p-place li {
+    font-size: 12px;
     display: inline-block;
     color: #4c4c4c;
 }
@@ -137,9 +139,11 @@ a .hyb-pic-rightBtn {
     display: inline-block;
     width: 100%;
     margin-top: 8px;
+    font-size: 12px;
 }
 .hyb-dinfo-box-center .hyb-p-dt {
     display: inline;
+    font-size: 12px;
     float: left;
     width: 68px;
     color: #666;
@@ -159,6 +163,7 @@ a .hyb-pic-rightBtn {
 }
 .hyb-dinfo-box-center dd.hyb-p-has span.hyb-p-active, .hyb-dinfo-box-center dd.hyb-p-set span.hyb-p-active {
     border: 1px solid #f86f76;
+    font-size: 12px;
 }
 .hyb-dinfo-box-center dd.hyb-p-has span, .hyb-dinfo-box-center dd.hyb-p-set span {
     display: inline-block;
@@ -176,7 +181,7 @@ a .hyb-pic-rightBtn {
     position: absolute;
     width: 16px;
     height: 13px;
-    background: url(/images/v1504/pphoto/hyb-right-red.png) no-repeat center center;
+    background: url("http://www.moximoxi.net/images/v1504/pphoto/hyb-right-red.png") no-repeat center center;
     right: 0px;
     bottom: 0px;
 }
@@ -200,10 +205,16 @@ a .hyb-pic-rightBtn {
     position: relative;
     cursor: pointer;
 }
+.btn-stock em{
+    font-size: 12px;
+}
 .hyb-dinfo-box-center dd.hyb-pcom-dd {
     display: inline-block;
     width: 100%;
     margin-top: 8px;
+}
+#goods-time a{
+    font-size: 12px;
 }
 .hyb-dinfo-box-center dd.hyb-p-total .hyb-p-dt {
     padding-top: 5px;
@@ -221,7 +232,7 @@ a .hyb-pic-rightBtn {
     float: left;
     width: 27px;
     height: 27px;
-    background-image: url(/images/v1504/pphoto/txtbg.jpg);
+    background-image: url(http://www.moximoxi.net/images/v1504/pphoto/txtbg.jpg);
     background-repeat: no-repeat;
 }
 .hyb-dinfo-box-center .hyb-total-txt {
@@ -277,10 +288,11 @@ a .hyb-pic-rightBtn {
     background-position: 0px 0px;
 }
 .hyb-p-share a {
+    font-size: 12px;
     display: inline-block;
     float: left;
     margin-left: 22px;
-    background-image: url(/images/v1504/pphoto/share-btn.jpg);
+    background-image: url("http://www.moximoxi.net/images/v1504/pphoto/share-btn.jpg");
     background-repeat: no-repeat;
     text-indent: 22px;
     line-height: 20px;
@@ -289,16 +301,7 @@ a .hyb-pic-rightBtn {
 .hyb-p-share a.hyb-btn-share {
     background-position: -205px 0px;
 }
-.hyb-p-share a {
-    display: inline-block;
-    float: left;
-    margin-left: 22px;
-    background-image: url(/images/v1504/pphoto/share-btn.jpg);
-    background-repeat: no-repeat;
-    text-indent: 22px;
-    line-height: 20px;
-    color: #aaaaaa;
-}
+
 .hyb-dinfo-box-right {
     width: 243px;
     float: right;
@@ -350,14 +353,14 @@ a .hyb-pic-rightBtn {
     width: 100%;
     margin: 35px auto auto auto;
     clear: both;
-    background: url(/images/v1504/pphoto/a-p-bg.jpg) repeat-x;
+    background: url("http://www.moximoxi.net/images/v1504/pphoto/a-p-bg.jpg") repeat-x;
     padding-top: 12px;
 }
 .hyb-ap-tit {
     width: 1200px;
     height: 33px;
     margin: 0px auto;
-    background: url(/images/v1504/pphoto/line.jpg) repeat-x bottom left;
+    background: url("http://www.moximoxi.net/images/v1504/pphoto/line.jpg") repeat-x bottom left;
 }
 .hyb-ap-tit li.hyb-iteam-active {
     color: #f86f76;

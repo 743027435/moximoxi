@@ -1,10 +1,10 @@
 $(function(){
-            var isOk1 = false;
-            var isOk2 = false;
-            var isOk3 = false;
-            var isOk4 = false;
-            var isOk5 = false;
-            var isOk6 = false;
+            var isOk1 = true;
+            var isOk2 = true;
+            var isOk3 = true;
+            var isOk4 = true;
+            var isOk5 = true;
+            var isOk6 = true;
      //邮箱注册
       $("#txtuserEmail").blur(function(){
           let email = $(this).val();
@@ -103,12 +103,83 @@ $(function(){
            }
        })
 
+
+
+
+
+
+
      //注册
+     let  useremail = $("#txtuserEmail");
+     let  pwd       = $("#txtuserPwd");
+     
+     function register(){
+       $.ajax({
+            "url": "../php/register.php",
+            "data": {
+                "usenameemail": useremail.val(),
+                "passwd": pwd.val(),
+            },
+            "success": function (res, status, xhr) {
+              // console.log(111);
+                if (status == "success") {
+                    
+                    if (xhr.responseText == "ok") {
+                        alert("注册成功！请登录");
+                      location.href = "../tpl/index.html";
+                    }
+
+                    if (xhr.responseText == "用户已经存在") {
+                       alert("该账号已经注册,请直接登录");
+                    }
+                }
+            }
+        });
+    }
+
+     
+
       $("#submit-btn").click(function() {
           if (isOk1 && isOk2 && isOk3 && isOk4 && isOk5 && isOk6 ) {
-                    alert('注册成功');
-                }else{
-                    alert('请填写完整的信息');
-                }
+              alert('注册成功');
+          }else{
+              alert('请填写完整的信息');
+          }
+          register();
       });
+
+
+
+
+
+      //链接php与数据库链接
+      // id="txt_usernameLogin" class="square-input-short">
+      // id="txt_pwdLogin" class="square-input-short
+      function netWork(queryString){
+          $.get({
+            url: "../php/login.php",
+            data: queryString,
+            success(res) {
+                if (JSON.parse(res) == "success") {
+                    location.href = "../tpl/index.html";
+                };
+            }
+          });
+        }
+      
+      
+      let username = $("#txt_usernameLogin");
+      let password = $("#txt_pwdLogin");
+      //class="loginbtn"
+      $(".loginbtn").click(function(){
+        let unameval = $.trim(username.val());
+        let pwdval = $.trim(password.val());
+        netWork(`username=${unameval}&userPwd=${pwdval}`);
+      })
+
+
+
+      //注册
+      
+
 }) 

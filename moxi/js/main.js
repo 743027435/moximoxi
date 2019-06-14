@@ -181,7 +181,7 @@ $(function (){
     //点击照片生成详情页
     $(".inBandSalesMainC").on("click","img",function(){
         window.location.href = "../tpl/list.html";
-        console.log(8888);
+        // console.log(8888);
         plase();
     })
 

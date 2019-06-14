@@ -48,7 +48,7 @@ $(function(){
     //跳到详情页
      let olist = $(".select-list");
      olist.on("click",".sel-shop-iteam",function(){
-        let index = $(this).index();
+        let index = $(this).index()-1;
         console.log(index);
         $.get({
             url:"../php/list.php",
@@ -61,6 +61,7 @@ $(function(){
                 }
                 res = res.slice(0 ,-1);
                 console.log(res);
+                window.location.href = "../tpl/details.html?"+res;
             }
         })
      })
